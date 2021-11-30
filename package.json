@@ -1,13 +1,16 @@
 {
   "name": "hello-world-vue-2",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.2",
+  "private": false,
+  "main": "dist/myLib.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "buildLib": "vue-cli-service build --target lib --inline-vue --name myLib --mode development src/lib.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "buefy": "^0.9.13",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },

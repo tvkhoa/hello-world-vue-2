@@ -2,6 +2,9 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h3>Testing library</h3>
+    <b-button type="is-primary">Primary</b-button>
+    <b-button type="is-primary is-light">Primary Light</b-button>
   </div>
 </template>
 
